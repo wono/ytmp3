@@ -1,0 +1,10 @@
+#!/bin/bash
+# ytmp3 defendecy-installation script.
+# author: Wonho Lim
+
+# Note: To install this script and successfully install the 
+#       defendecies, you need Node Package Modules 
+#       (https://www.npmjs.org) and Homebrew (http://brew.sh).
+
+sudo npm -g install ytmdl
+brew install ffmpeg
