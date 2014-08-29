@@ -1,0 +1,22 @@
+#!/bin/bash
+#ytmp3 - a command line youtube mp3 downloader for osx
+#author: Wonho Lim
+
+#   ARG1: title of song you named
+#   ARG2: a youtube viedo url
+
+DEFAULT_MOVIE_EXTENSION="mp4"
+DEFAULT_MUSIC_EXTENSION="mp3"
+TITLE=$1
+URL=$2
+
+#original video file
+ORIGINAL="${TITLE}.${DEFAULT_MOVIE_EXTENSION}"
+
+#target mp3 file to convert
+TARGET="${TITLE}.${DEFAULT_MUSIC_EXTENSION}"
+
+ytdl -o $ORIGINAL $URL &&\
+ffmpeg -i $ORIGINAL $TARGET &&\
+rm $ORIGINAL &&\
+afplay $TARGET
