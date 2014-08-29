@@ -1,0 +1,13 @@
+#!/bin/bash
+# ytmp3 installation script
+# author: Wonho Lim
+
+# Note: the default path for the installation is /usr/bin/wtools. 
+#       Please add this path environment variable or modify other 
+#       path you want to install.
+        
+DEFAULT_PATH_TO_INSTALL="/usr/bin/wtools/"
+
+sudo chmod 775 install &&\
+sudo cp -r ytmp3 $DEFAULT_PATH_TO_INSTALL &&\
+echo The installation completed.
