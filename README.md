@@ -9,7 +9,7 @@ Defendencies
 *   ytdl - Pure Javascript youtube video downloader:
     https://github.com/fent/node-ytdl (Node Package Modules required)
     
-*   A complete, cross-platform solution to record, convert and stream 
+*   FFmpeg - A complete, cross-platform solution to record, convert and stream 
     audio and video: https://github.com/FFmpeg/FFmpeg (Recommend using 
     Homebrew)
     
