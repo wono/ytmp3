@@ -27,4 +27,4 @@ How To Use
 ----------
 The run command is like this:
     
-    ytdl music_title video_url
+    ytmp3 music_title video_url
