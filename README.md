@@ -3,6 +3,9 @@ ytmp3
 
 ytmp3 is a command line Youtube mp3 downloader for OSX.
 
+<p>
+  <img src="http://wono.me/images/ytmp3.gif?raw=true"/>
+</p>
 
 Defendencies
 ------------
